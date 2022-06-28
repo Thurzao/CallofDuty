@@ -1,0 +1,80 @@
+
+
+@font-face{
+	font-family:Star Jedi Outline;
+	src: url('E:\PWI\Projeto de site\fonts\starjedi\starjout'); 
+}
+@font-face{
+	font-family:8th Cargo;
+	src: url('E:\PWI\Projeto de site\fonts\8th_Cargo\8th Cargo.ttf'); 
+}
+
+*{
+	padding:0;
+	margin:0px;}
+
+
+nav ul li a {
+	display: block;
+	font-size: 14;
+	padding: 8px ;
+	text-decoration: none;
+	color: #C0C0C0;
+	width: 19%;
+	
+
+}
+nav ul li a:hover {
+	color:#DC143C;
+}
+
+body{
+	background:linear-gradient(#363636 , #000000 );
+	color:#ffffff;
+}
+
+.menu{
+	width: 100%;
+	padding:5px;
+	background-color:#000000;
+	margin-left:0;
+}
+.imghome{
+	margin-left: 0;
+	position:relative;
+    text-align:center;
+}
+.logo{
+	margin-left:-8;
+	margin-top: -8;
+
+}
+.imghome button{
+    position: absolute;
+	bottom: 100px;
+	margin-left: -500px;
+	font-size: 18px;
+	width:250px;
+}
+.imghome button:hover{
+	color:#363636;
+	
+}
+.button2{
+	position: absolute;
+	bottom: 85px;
+	left: 16px;
+	font-size: 18px;
+	width:290px;
+	margin-left: 180px;
+	position:relative;
+    text-align:left;
+}
+.interativo{
+	margin-left: -48;
+	margin-top: -22;
+}
+.jogo{
+	font-family:Montserrat, sans-serif;
+}
+
