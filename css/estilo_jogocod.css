@@ -1,0 +1,158 @@
+@font-face{
+	font-family:Coalation;
+	src: url('E:\PWI\Projeto de site\fonts\Coalition'); 
+}
+
+*{
+	padding:0;
+	margin:0px;
+	font-family: 'Coalition';
+}
+
+body{	
+	font-size: 18;
+	background:linear-gradient(#363636 , #000000 );
+	color:#ffffff;
+}
+
+li{
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+	font-size: 14;
+	padding: 5px ;
+	text-decoration: none;
+	color: #C0C0C0;
+	width: 19%;
+}
+nav ul li a:hover {
+	color:#DC143C;
+}
+.menu{
+	width: 100%;
+	padding:7px;
+	background-color:#000000;
+	margin-left:0;
+}
+
+.logo{
+	margin-left:-8;
+	margin-top: -8;
+
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.COD-1,.COD-2, .COD-3, .COD-4, .COD-5, .COD-6, .COD-7, .COD-8, .COD-9, .COD-10, .COD-11, .COD-12, .COD-13, .COD-14, .COD-15, .COD-16, .COD-17, .COD-18, .COD-19, .COD-20{
+	display: none;         /* Por padrão, os divs iniciam ocultos. */
+}
+.COD-1:target, .COD-2:target, .COD-3:target, .COD-4:target, .COD-5:target, .COD-6:target, .COD-7:target, .COD-8:target, .COD-9:target, .COD-10:target, .COD-11:target, .COD-12:target, .COD-13:target, .COD-14:target, .COD-15:target, .COD-16:target, .COD-17:target, .COD-18:target, .COD-19:target, .COD-20:target{
+	display: block	;
+}	/* Exibe quando o elemento é alvo. */
+.rodape{
+	background-color: 	#c71313;
+}
+
+.direito{
+	margin-left: 1%;
+	
+}
+.contato{
+	margin-top: 1%;
+	margin-left: 80%;
+}
+
+.insta{
+	margin-left: 79%;
+}
+.gmail{
+	margin-left: 84%;
+	margin-top: -25px;
+}
